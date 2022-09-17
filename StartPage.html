@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        
+        <div class="Title">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+            <h1>Quiz Game </h1> 
+            <p>Choose one of the below fields</p>
+            <Button class="StartBut" >Start</Button>
+        </div>
+        <div class="Fields">
+            <div class="Field">
+                <ion-icon name="game-controller-outline"></ion-icon>
+                <h3>Game</h3>
+            </div>
+            <div class="Field">
+                <ion-icon name="tennisball-outline"></ion-icon>
+                <h3>Sport</h3>
+            </div>
+            <div class="Field">
+                <ion-icon name="flask-outline"></ion-icon>
+                <h3>Science</h3>
+            </div>
+            <div class="Field">
+                <ion-icon name="calculator-outline"></ion-icon>
+                <h3>Math</h3>
+            </div>
+            <div class="Field">
+                <ion-icon name="book-outline"></ion-icon>
+               <h3>English</h3> 
+            </div>
+            <div class="Field">
+                <ion-icon name="hardware-chip-outline"></ion-icon>
+                <h3>Technology</h3>
+            </div>
+        </div>
+        <div class="QuestionContainer">
+            <progress class="TimeBar" max="100"> </progress>
+            <div class="Question">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quasi.</h4>
+                <Button class="NextQuetion"> Next </Button>
+            </div>
+            
+            <div class="Options">
+                <div class="Option"></div>
+                <div class="Option"></div>
+                <div class="Option"></div>
+                <div class="Option"></div>
+            </div>
+        </div>
+         
+       <p class="QNum"></p>
+
+    </div>
+    <h2 class="ds">Designed By <span class="AMS">AMS</span></h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="SPScript.js"></script>
+    
+</body>
+</html>
